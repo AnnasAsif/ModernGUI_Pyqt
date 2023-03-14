@@ -45,6 +45,7 @@ class LoginScreen(QDialog):
     def __init__(self) -> None:
         super(LoginScreen, self).__init__()
         loadUi("login.ui", self)
+        self.password.setEchoMode(QtWidgets.QLineEdit.Password)
 
 #main
 app = QApplication(sys.argv)
