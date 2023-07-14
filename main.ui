@@ -22,12 +22,6 @@
      <height>801</height>
     </rect>
    </property>
-   <property name="minimumSize">
-    <size>
-     <width>1201</width>
-     <height>801</height>
-    </size>
-   </property>
    <property name="styleSheet">
     <string notr="true">QWidget#bgwidget{
 background-color: qlineargradient(spread:pad, x1:0.461, y1:0.204545, x2:0.0852273, y2:0.068, stop:0.375 rgba(194, 199, 209, 255), stop:0.920455 rgba(137, 145, 166, 255));
@@ -36,10 +30,10 @@ background-color: qlineargradient(spread:pad, x1:0.461, y1:0.204545, x2:0.085227
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>500</x>
+      <x>450</x>
       <y>50</y>
-      <width>201</width>
-      <height>61</height>
+      <width>300</width>
+      <height>60</height>
      </rect>
     </property>
     <property name="toolTip">
@@ -49,7 +43,7 @@ background-color: qlineargradient(spread:pad, x1:0.461, y1:0.204545, x2:0.085227
      <string notr="true">font: 22pt &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:28pt; font-weight:600; color:#193154;&quot;&gt;LOGIN&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:28pt; font-weight:600; color:#193154;&quot;&gt;ALL APPS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -57,8 +51,8 @@ background-color: qlineargradient(spread:pad, x1:0.461, y1:0.204545, x2:0.085227
      <rect>
       <x>450</x>
       <y>110</y>
-      <width>301</width>
-      <height>31</height>
+      <width>300</width>
+      <height>30</height>
      </rect>
     </property>
     <property name="toolTip">
@@ -68,14 +62,14 @@ background-color: qlineargradient(spread:pad, x1:0.461, y1:0.204545, x2:0.085227
      <string notr="true">font: 22pt &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; color:#193c54;&quot;&gt;Sign into your Existing Account&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; color:#193c54;&quot;&gt;All Apps Available are Shown Here&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="login2">
+   <widget class="QPushButton" name="app2">
     <property name="geometry">
      <rect>
-      <x>460</x>
-      <y>430</y>
+      <x>150</x>
+      <y>300</y>
       <width>281</width>
       <height>41</height>
      </rect>
@@ -87,67 +81,7 @@ color: rgb(255, 255, 255);
 background-color: qlineargradient(spread:pad, x1:0.211091, y1:0.199, x2:0.608, y2:0.603, stop:0.767045 rgba(30, 63, 102, 255), stop:0.977273 rgba(34, 70, 117, 255));</string>
     </property>
     <property name="text">
-     <string>LOGIN</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_3">
-    <property name="geometry">
-     <rect>
-      <x>460</x>
-      <y>210</y>
-      <width>91</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; color:#193154;&quot;&gt;Username&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_4">
-    <property name="geometry">
-     <rect>
-      <x>460</x>
-      <y>300</y>
-      <width>91</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; color:#193154;&quot;&gt;Password&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="username">
-    <property name="geometry">
-     <rect>
-      <x>460</x>
-      <y>240</y>
-      <width>281</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color:rgba(0,0,0,0);
-font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
-    </property>
-    <property name="text">
-     <string>AnnasAsif</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="password">
-    <property name="geometry">
-     <rect>
-      <x>460</x>
-      <y>330</y>
-      <width>281</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color:rgba(0,0,0,0);
-font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
-    </property>
-    <property name="text">
-     <string>Annas@3221</string>
+     <string>WEDDING DRESSES</string>
     </property>
    </widget>
    <widget class="QPushButton" name="back">
@@ -167,6 +101,82 @@ background-color: qlineargradient(spread:pad, x1:0.211091, y1:0.199, x2:0.608, y
     </property>
     <property name="text">
      <string>&lt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="app3">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>400</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:15px;
+font: 12pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);
+background-color: qlineargradient(spread:pad, x1:0.211091, y1:0.199, x2:0.608, y2:0.603, stop:0.767045 rgba(30, 63, 102, 255), stop:0.977273 rgba(34, 70, 117, 255));</string>
+    </property>
+    <property name="text">
+     <string>NATURE PHOTO EDITOR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="app1">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>200</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:15px;
+font: 12pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);
+background-color: qlineargradient(spread:pad, x1:0.211091, y1:0.199, x2:0.608, y2:0.603, stop:0.767045 rgba(30, 63, 102, 255), stop:0.977273 rgba(34, 70, 117, 255));</string>
+    </property>
+    <property name="text">
+     <string>LOVE PHOTO FRAMES</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="app4">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>500</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:15px;
+font: 12pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);
+background-color: qlineargradient(spread:pad, x1:0.211091, y1:0.199, x2:0.608, y2:0.603, stop:0.767045 rgba(30, 63, 102, 255), stop:0.977273 rgba(34, 70, 117, 255));</string>
+    </property>
+    <property name="text">
+     <string>SMARTY MEN JACKET</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="app5">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>600</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:15px;
+font: 12pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);
+background-color: qlineargradient(spread:pad, x1:0.211091, y1:0.199, x2:0.608, y2:0.603, stop:0.767045 rgba(30, 63, 102, 255), stop:0.977273 rgba(34, 70, 117, 255));</string>
+    </property>
+    <property name="text">
+     <string>PIC COLLAGE MAKER</string>
     </property>
    </widget>
   </widget>
